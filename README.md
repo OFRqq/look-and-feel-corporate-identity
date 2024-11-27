@@ -17,8 +17,9 @@ Bij de buurtcamus draaien verschillende duurzame projecten; De Stekjes bieb, De 
 ## kenmerken 
 Bij de opdracht van Bieb In Bloei maak ik gebruik van html, css, js, figma bestanden en verschillende soorten assets.
 
-[Buurtcampus-Oost](https://github.com/fdnd-agency/buurtcampus-oost/tree/design-challenge)
+-[Buurtcampus-Oost](https://github.com/fdnd-agency/buurtcampus-oost/tree/design-challenge)
 
+-[stylesheet](https://kimnikitaschijf.github.io/look-and-feel-styleguide/)
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
