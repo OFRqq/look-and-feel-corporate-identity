@@ -1,3 +1,4 @@
+/*burger menu unfolding*/
 document.querySelectorAll('input[type=radio]').forEach((radio) => {
   radio.addEventListener('keydown', (e) => {
     if (e.key === 'Tab') {
@@ -12,6 +13,7 @@ const navLinks = document.getElementById('nav-links');
 menuToggle.addEventListener('click', () => {
   navLinks.classList.toggle('active'); // Toggle the "active" class
 });
+
 
 /*slideshow ADDED*/
 const slides = document.querySelectorAll('.slide');
