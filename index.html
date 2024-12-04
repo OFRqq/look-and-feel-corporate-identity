@@ -10,18 +10,14 @@
 </head>
 
 <body>
-
-
-  <header style="top: 0px;">
-    <nav id="headermenu">
-      <div class="menu-toggle" id="mobile-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+  <header>
+    <nav id="headermenu"> <!--navigation menu-->
+      <div class="menu-toggle color4">
+        <img class='menu-icon' id="mobile-menu" src="assets/open-menu.svg">
+        <a href="index.html"><img height="50px" src="assets/logo.svg"></a>
       </div>
-      <a href="#"><img class="harry" src="assets/harry_blij.gif" /></a>
       <ul class="nav-links" id="nav-links">
-        <li><a href="#" class="a-link">Thema</a></li>
+        <li><a href="index.html" class="a-link">Home</a></li>
         <li><a href="#" class="a-link">De Geveltuin</a></li>
         <li><a href="#" class="a-link">Stekjes & Zaadjes</a></li>
         <li><a href="Partners.html" class="a-link">Partners </a></li>
@@ -75,34 +71,7 @@
     </footer>
 </body>
 
-<script>
-  const menuToggle = document.getElementById('mobile-menu');
-  const navLinks = document.getElementById('nav-links');
-
-  menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active'); // Toggle the "active" class
-  });
-
-  let lastScrollTop = 0;
-  const header = document.getElementById("headermenu");
-
-  window.addEventListener("scroll", function () {
-    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-    if (scrollTop > lastScrollTop) {
-      // Naar beneden scrollen
-      header.style.top = "-120px"; // Verberg de header (aanpassen aan de hoogte van je header)
-    } else {
-      // Naar boven scrollen
-      header.style.top = "0"; // Zet de header weer terug naar boven
-    }
-
-    lastScrollTop = scrollTop;
-  });
-
-
-
-</script>
+<script src="scripts.js"></script>
 
 </main>
 
